@@ -1,0 +1,41 @@
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.secret
+secrets/
+credentials/
+
+# Private keys and certificates
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# Logs and diagnostic dumps
+*.log
+*.dump
+*.core
+
+# Backups
+*.bak
+*.backup
+*.old
+*.orig
+*.tar
+*.tar.gz
+
+# Temporary and editor files
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Operating system and editor directories
+.vscode/
+.idea/
+
